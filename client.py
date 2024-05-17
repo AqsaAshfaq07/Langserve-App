@@ -1,13 +1,10 @@
 # Installing necessary libraries for Connection with MongoDB
-import pymongo
-import random
+import pymongo, random
 from pymongo import MongoClient, ASCENDING
 from datetime import datetime
-import pytesseract
 from PIL import Image
-import requests
-import openai
-import cv2
+import requests, openai, cv2, pytesseract
+from openai import OpenAI
 from langchain_community.chat_models import ChatOpenAI
 
 

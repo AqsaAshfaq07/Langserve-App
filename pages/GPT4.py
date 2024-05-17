@@ -9,8 +9,8 @@ st.subheader("Let AI Prescribe You Medicine!")
 
 # Text input field for user to enter messages
 user_input = st.text_input("Enter your message:")
-name = st.text_input("Enter your name:")
-prompt = (f"You've been trained on vast amounts of medical data about livestock. Give a brief"
+name = st.text_input("Enter your patient ID:")
+prompt = (f"You've been trained on vast amounts of medical data. Give a brief"
           f"introduction about the disease. Then generate a" 
           f"prescription for the disease {user_input} contains. Also prescribe medicine for its "
           f"cure and appropriate dosages for it with a complete plan on how to take the medicine.")

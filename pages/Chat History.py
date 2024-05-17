@@ -7,7 +7,7 @@ st.title("PrescribeAI")
 st.subheader("Never Lose Your Medical Conversations!")
 
 # Text input field for user to enter the name
-name = st.text_input("Enter the name:")
+name = st.text_input("Enter the patient ID:")
 
 # Button to fetch chat history
 if st.button("Fetch Chat History"):

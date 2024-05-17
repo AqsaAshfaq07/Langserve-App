@@ -24,7 +24,7 @@ if st.button("Start Analysis"):
         st.image(image)
         st.subheader("Generated Prescription:")
         st.write(res)
-        # else:
-        #     st.write("Error generating prescription. Please try again.")
+    else:
+        st.write("Error generating prescription. Please try again.")
     end_time = time.time()
     st.text(f'Total Run Time :{end_time - start_time}s')

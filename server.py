@@ -20,6 +20,7 @@ app = FastAPI(
     description="A simple API server"
 )
 
+
 # Default Route
 @app.get("/")
 def home():

@@ -1,5 +1,5 @@
 import streamlit as st
-from app import generate_report  # assuming backend_file.py contains the generate_report() function
+from server import generate_report  # assuming backend_file.py contains the generate_report() function
 
 st.title("PrescribeAI")
 st.subheader("Get Personalized Medical Reports of Your Data!")

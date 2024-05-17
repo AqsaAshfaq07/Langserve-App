@@ -1,6 +1,6 @@
 import requests
 import streamlit as st
-from app import get_chat_history
+from server import get_chat_history
 
 
 st.title("PrescribeAI")

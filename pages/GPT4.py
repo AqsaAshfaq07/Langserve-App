@@ -1,6 +1,6 @@
 import requests, random
 import streamlit as st
-from app import get_openai
+from server import get_openai
 from client import store_message
 
 # Streamlit app title

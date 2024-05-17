@@ -5,7 +5,7 @@ import wave
 import tempfile
 from openai import OpenAI
 from pydub import AudioSegment
-from app import process_audio
+from server import process_audio
 
 
 # Function to record audio

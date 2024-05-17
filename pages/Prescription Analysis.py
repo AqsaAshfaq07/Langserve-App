@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 from PIL import Image
 import time
-from app import get_prescription
+from server import get_prescription
 
 st.set_page_config(layout="wide")  # in streamlit app, the layout default setting is 'centered'
 STYLES = {

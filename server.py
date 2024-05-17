@@ -12,7 +12,7 @@ from PIL import Image
 from datetime import datetime
 
 
-openai_api_key = "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"
+openai_api_key = os.getenv('OPENAI_API_KEY')
 
 app = FastAPI(
     title="Langserve App",
@@ -88,7 +88,7 @@ def get_prescription(image_file):
 # Voice Assistance
 @app.get("/voice-assistance")
 def process_audio(input_file):
-    OPENAI_API_KEY = "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"
+    OPENAI_API_KEY = "sk-proj-g2lsZ8bomyh6XBWpX12FT3BlbkFJ3u4Q6RqqdFIQbUvkH00Q"
     client = OpenAI(api_key=OPENAI_API_KEY)
     audio_file = open(input_file, "rb")
     transcription = client.audio.transcriptions.create(

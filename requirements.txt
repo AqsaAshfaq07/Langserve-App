@@ -38,4 +38,5 @@ opencv-python
 streamlit
 sounddevice
 pydub
+opencv-contrib-python
 pyaudio
